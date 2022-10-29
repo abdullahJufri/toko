@@ -66,6 +66,10 @@ $errors = $session->getFlashdata('errors');
                                 <?= form_password($password) ?>
                             </div>
                             <div class="group-input">
+                                <label for="pass">repeat *</label>
+                                <?= form_password($repeat) ?>
+                            </div>
+                            <div class="group-input">
                                 <label for="con-pass">Confirm Password *</label>
                                 <?= form_password($repeatPassword) ?>
                             </div> 
